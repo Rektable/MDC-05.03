@@ -1,0 +1,28 @@
+﻿<Window x:Class="MDK0503_Pract_Test1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MDK0503_Pract_Test1"
+        mc:Ignorable="d"
+        Title="Практическая Работа 1" Height="400" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid Background="Red">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="530*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Catet1" TextWrapping="Wrap" Text="Сторона 1" TextAlignment="Center" Margin="0,150,396,192" FontFamily="Bahnschrift Light SemiCondensed" Grid.Column="2" GotFocus="Catet1_GotFocus" PreviewTextInput="Catet1_PreviewTextInput"/>
+        <TextBox x:Name="Catet2" TextWrapping="Wrap" Text="Сторона 2" TextAlignment="Center" Margin="170,150,233,192" FontFamily="Bahnschrift Light SemiCondensed" Grid.Column="2" GotFocus="Catet2_GotFocus" PreviewTextInput="Catet2_PreviewTextInput"/>
+        <TextBox x:Name="Gipotenuza" TextWrapping="Wrap" Text="Сторона 3" TextAlignment="Center" Margin="344,150,54,192" FontFamily="Bahnschrift Light SemiCondensed" Grid.Column="2" GotFocus="Gipotenuza_GotFocus" PreviewTextInput="Gipotenuza_PreviewTextInput"/>
+        <Label HorizontalContentAlignment="Center" Content="Введите длины сторон треугольника" Margin="97,106,162,213" Foreground="White" FontFamily="Bahnschrift Light SemiCondensed" Grid.Column="2" FontSize="16"/>
+        <Button Content="Проверить" Grid.Column="2" Margin="170,238,233,74" Click="Button_Click"/>
+        <TextBlock x:Name="resultat" TextAlignment="Center" TextWrapping="Wrap"  Opacity="0" Background="Orange" Grid.Column="2" Margin="343,238,10,10"><Run Text=" Результаты вычислений"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+        <Image Source="resources\57a410734f5dd4db3160886655e5adfe.png"   Grid.Column="2" Margin="126,3,203,251">
+            <Image.Clip>
+                <RectangleGeometry Rect="0,0,120,105" RadiusX="20" RadiusY="20"/>
+            </Image.Clip>
+        </Image>
+
+    </Grid>
+</Window>
