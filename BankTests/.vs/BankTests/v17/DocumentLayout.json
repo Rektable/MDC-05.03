@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rektable\\source\\repos\\BankTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D728E24E-82A9-4F97-82C0-BA859CEF6EAF}|BankTests\\BankTests.csproj|C:\\Users\\Rektable\\source\\repos\\BankTests\\banktests\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D728E24E-82A9-4F97-82C0-BA859CEF6EAF}|BankTests\\BankTests.csproj|solutionrelative:banktests\\bankaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F19E63B-848F-48AF-BA26-7A40C25BB188}|..\\BankAccount\\BankAccount\\BankAccount.csproj|c:\\users\\rektable\\source\\repos\\bankaccount\\bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rektable\\source\\repos\\BankAccount\\BankAccount\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BankAccount\\BankAccount\\Program.cs",
+              "ToolTip": "C:\\Users\\Rektable\\source\\repos\\BankAccount\\BankAccount\\Program.cs",
+              "RelativeToolTip": "..\\BankAccount\\BankAccount\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:16:25.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountTests.cs",
+              "DocumentMoniker": "C:\\Users\\Rektable\\source\\repos\\BankTests\\BankTests\\BankAccountTests.cs",
+              "RelativeDocumentMoniker": "BankTests\\BankAccountTests.cs",
+              "ToolTip": "C:\\Users\\Rektable\\source\\repos\\BankTests\\BankTests\\BankAccountTests.cs",
+              "RelativeToolTip": "BankTests\\BankAccountTests.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T09:10:40.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
